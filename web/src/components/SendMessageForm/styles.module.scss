@@ -1,0 +1,120 @@
+.sendMessageFormWrapper {
+    background: #1b1b1f;
+    padding: 24px;
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+
+    .signOutButton {
+        background: transparent;
+        border: 0;
+        color: #c4c4cc;
+        font-size: 22px;
+        cursor: pointer;
+
+        position: absolute;
+        left: 24px;
+        top: 24px;
+
+        // &:hover {
+        //     filter: brightness(0.9);
+        // }
+    }
+
+    .userInformation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .userImage {
+            width: 100px;
+            height: 100px;
+
+            padding: 3px;
+            background: linear-gradient(100deg, #ff008e 0%, #ffcd1e 100%);
+            border-radius: 50%;
+            line-height: 0;            
+    
+            img {
+                width: 94px;
+                height: 94px;
+                border-radius: 50%;
+                border: 5px solid #1b1b1f;
+            }
+        }
+
+        .userName {
+            font-size: 18px;
+            line-height: 15px;
+            margin-top:16px;
+        }
+
+        .userGithub {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            color: #c4c4cc;
+            font-size: 14px;
+
+            svg {
+                margin-right: 8px;
+            }
+
+        }
+    }
+
+    .sendMessageForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+
+        background: #202024;
+
+        label {
+            padding: 18px 24px;
+            font-size: 20px;
+            text-align: left;
+            font-weight: bold;
+            background: #29292e;
+        }
+
+        textarea {
+            height:160px;
+            background: transparent;
+            border: none;
+            resize: none;
+            padding: 24px;
+            color: #e1e1e6;
+            font-size: 16px;
+            line-height: 24px;
+            outline: none;
+        }
+
+        button {
+            height: 46px;
+            background: #ff008e;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0 34px;
+            margin: 32px;
+            font-weight: 600;
+            font-size: 14px;
+            align-self: flex-end;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                filter: brightness(.9)
+            }
+        }
+
+    }
+
+}

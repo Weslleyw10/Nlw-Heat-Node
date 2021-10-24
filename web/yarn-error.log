@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Weslley L Silva\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Weslley L Silva\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Weslley L Silva\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u292-b10\bin;C:\Users\Weslley L Silva\AppData\Local\Android\Sdk\platform-tools;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Weslley L Silva\AppData\Local\Microsoft\WindowsApps;C:\Users\Weslley L Silva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Weslley L Silva\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\Weslley L Silva\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\Weslley L Silva\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.19.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+
+npm manifest: 
+  {
+    "name": "web",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@vitejs/plugin-react": "^1.0.0",
+      "typescript": "^4.3.2",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
